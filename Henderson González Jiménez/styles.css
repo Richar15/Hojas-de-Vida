@@ -1,0 +1,100 @@
+/* Importar una fuente moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Hero section (encabezado principal) */
+.hero-section {
+    background-color: #333; /* Color oscuro */
+    padding: 50px 20px;
+    color: white;
+    position: relative;
+}
+
+.hero-content img.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #008080;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-content h2 {
+    font-size: 1.5em;
+    color: #008080; /* Verde marino */
+}
+
+/* Navigation bar */
+.navigation {
+    background-color: #008080;
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section cards */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card h2 {
+    color: #008080;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
